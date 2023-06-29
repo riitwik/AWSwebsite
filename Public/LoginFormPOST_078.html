@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login Form</title>
+    <link rel="stylesheet" href="bootstrap.min.css" type="text/css">
+    <script src="bootstrap.min.js"></script>
+   
+</head>
+<body>
+</br>
+    <h1 class="display-3">Amazon Web Server Site</h1>
+    <br>
+    <div></div>
+    <ul class="nav navbar container-fluid" style="background-color: gray">
+        <li class="nav-item">
+            <Link to="/hello" class="nav-link">Hello</Link>
+        </li>
+        <li class="nav-item">
+            <Link to="/styling" class="nav-link">Styling</Link>
+        </li>
+        <li class="nav-item">
+            <Link to="/form" class="nav-link">Form</Link>
+        </li>
+        <li class="nav-item">
+            <Link to="/usingeffect" class="nav-link">Effecthook</Link>
+        </li>
+        <li class="nav-item">
+            <Link to="/dystyling" class="nav-link">DynamicStyling</Link>
+        </li>
+        <li class="nav-item">
+            <Link to="/exprest" class="nav-link">ExpRESTAPI</Link>
+        </li>
+        <li class="nav-item">
+            <Link to="/login" class="nav-link">Login</Link>
+        </li>
+    </ul>
+    <br>
+    
+    <form name="Login_Form" method="post" action="http://localhost:9000/getDataTable" class="navbar-form">
+        
+        <label for="name"> Enter Name:</label>
+        <input type="text" name="name" id="name"></br>
+
+        <label for="bdate"> Enter Date of Birth :</label>
+        <input type="date" name="bdate" id="bdate"></br>
+
+        <label for="email"> Enter Email:</label>
+        <input type="email" name="email" id="email"></br>
+
+        <label for="qualif"> Enter Qualification :</label>
+        <input type="text" name="qualif" id="qualif"></br>
+        
+
+        <input type="submit" name="Submit" value="submit"></br>
+
+    </form>
+
+</body>
+</html>
